@@ -1,0 +1,69 @@
+****************************Terminal******************************************
+*different terms : command line,terminal,console,shell,bash,z-shell
+*shell/bash/z-shell: a program running on terminal
+
+*check version: git --version
+*show files and folder of desktop: ls
+*clear command: clear
+*get working directory: pwd
+
+* basic commands
+ls = list files (show my files)
+pwd = print working directory (where am i?)
+clear = clear screen
+
+* ~ matlab home directory
+* upward arrow for previous commands
+* downward arrow for next command
+
+
+*     navigation commands
+cd = change directory
+cd .. = back button
+
+press tab button to auto complete/suggestion
+
+we can skip steps also to go to that folder/file.eg : cd desktop/delta/js
+
+To skip one step backward type : cd ../..
+
+*              paths in navigation
+absolute path kisi vi directory meh ho work karega but relative path nhi karega.
+absolute path starts with /
+relative path seh sirf uske ls meh jo hain udar hi ja saktha hain
+
+eg: cd destop/delta (relative path)
+    cd /users/asua/js (absolute)
+
+/ (root directory)
+~ (home directory)
+
+* Making directories
+mkdir: Making directories (make folder)
+hum relative ya absolute path ko use karkhe vi folder bana sakthe hain.
+
+* flags
+flags are character that we pass with commands to modify their behaviour.
+manual command: eg: man ls (gives info about ls command)
+                    man mkdir (gives info about mkdir command)
+to exit from manual page click q.
+flags eg: ls -a
+
+* touch command
+used to create file in directory
+eg: touch index.html
+    touch style.css
+    touch app.js
+
+* Deleting files and folders
+agar terminal se file/folder delete kiya toh useh wapas restore nhi kar saktha.
+rm : removes files
+rmdir : removes empty folders
+rm -rf : removes any folders.
+rf ka fullform recursive force hain.
+eg: rm app.js
+    rmdir hello
+    rm -rf webdev
+
+
+
